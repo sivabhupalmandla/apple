@@ -1,0 +1,544 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+:root{
+    --text-color:rgba(255, 255, 255, .8);
+    --bg-color:rgba(0,0,0, .8);
+    --text-heading:#0071E3;
+    --text-heading1:#1d1d1f;
+
+}
+
+#nav{
+    /* border: 2px solid ; */
+    height: 50px;
+    background-color: var(--text-heading1);
+
+}
+
+#sub-nav{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 65%;
+    margin: auto;
+}
+
+#sub-nav ol{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-color);
+    fill: var(--text-color);
+}
+
+#main{
+    border: 2px solid ;
+    height: 620px;
+    background-image: url("./hero_iphone15pro__i70z9oz3hj2i_large_2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#heading{
+    color: var(--text-color);
+    font-size: 48px;
+    font-weight: 600;
+    line-height:1.08349;
+    letter-spacing: -.002em;
+    text-align: center;
+}
+#content{
+    /* border: 2px solid red; */
+    width: 29%;
+    height: 180px;
+    margin: auto;
+    margin-top: 120px;
+
+}
+
+#text{
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.16667;
+    letter-spacing: .009em;
+    text-align: center;
+}
+#content span a{
+    color: var(--text-heading);
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 20px;
+    /* border: 2px solid red; */
+    /* margin-top:30px ; */
+}
+#app:hover{
+    text-decoration: underline;
+}
+#app1:hover{
+    text-decoration: underline;
+}
+#content span{
+    position: absolute;
+    top: 290px;
+    left: 560px;
+}
+#sub-main{
+    border: 2px solid white;
+    height: 620px;
+    background-image: url('./iphone.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#sub-heading{
+    color: var(--text-heading1);
+    font-size: 48px;
+    font-weight: 600;
+    line-height:1.08349;
+    letter-spacing: -.002em;
+    text-align: center;
+}
+#sub-content{
+    /* border: 2px solid red; */
+    width: 30%;
+    height: 180px;
+    margin: auto;
+    margin-top: 120px;
+
+}
+
+#sub-text{
+    color: var(--text-heading1);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.16667;
+    letter-spacing: .009em;
+    text-align: center;
+}
+
+#sub-content span a{
+    color: var(--text-heading);
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+#sub-content span{
+    position: absolute;
+    top: 920px;
+    left: 560px;
+}
+#app2:hover{
+    text-decoration: underline;
+}
+#app3:hover{
+    text-decoration: underline;
+}
+
+#page-3{
+    /* border: 2px solid red; */
+    background-image: url('./apple\ logo.jpg');
+    height: 650px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center center;
+    margin-top: 10px;
+}
+
+#sub-page-3{
+    /* border: 2px solid green; */
+    width: 43%;
+    height: 200px;
+    position: absolute;
+    top: 1700px;
+    left: 400px;
+}
+
+.symbol{
+    font-size: 43px;
+    color: #fff;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.002em;
+    text-align: center;
+}
+
+#page-3 #sub-page-3 p{
+    font-size: 17px;
+    color:var(--text-color);
+    line-height: 1.08349;
+    font-weight: 200;
+    letter-spacing: -.002em;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#page-3 #sub-page-3 h3{
+    font-size: 24px;
+    font-weight: 400;
+    color:var(--text-color);
+    line-height: 1.16667;
+    letter-spacing: .009em;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#page-3 #sub-page-3 span button{
+    padding-left: 21px;
+    padding-right: 21px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 30px;
+    border: 0px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.17648;
+    letter-spacing: -.022em;
+}
+
+#button{
+    position: relative;
+    left: 180px;
+    top: 20px;
+}
+
+#left{
+    /* border: 2px solid blue; */
+    height: 550px;
+    width: 50%;
+    margin: 10px;
+    background-image: url('./left.image.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+#sub-left{
+    /* border: 2px solid green; */
+    width: 30%;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+
+#left #sub-left h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.125;
+    letter-spacing: .002em;
+    text-align: center;
+}
+
+#left #sub-left p{
+    font-size: 12px;
+    font-weight: 600;
+    color: orangered;
+    line-height: 1.125;
+    letter-spacing: .002em;
+    text-align: center;
+}
+
+#left #sub-left h5{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.21053;
+    letter-spacing: .012em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+#left #sub-left span a{
+    color: var(--text-heading);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+#combine{
+    display: flex;
+}
+
+#right{
+    /* border: 2px solid blue; */
+    height: 550px;
+    width: 50%;
+    margin: 10px;
+    background-image: url('./right.image.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+#sub-right{
+    /* border: 2px solid green; */
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+
+#right #sub-right h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.125;
+    letter-spacing: .002em;
+    text-align: center;
+}
+
+
+#right #sub-right h5{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.21053;
+    letter-spacing: .012em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#right #sub-right span{
+    margin-left: 55px;
+}
+#right #sub-right span a{
+    color: var(--text-heading);
+    text-decoration: none;
+    /* margin-left: 10px; */
+    
+}
+
+/* combine2 */
+
+#left-2{
+    /* border: 2px solid blue; */
+    height: 550px;
+    width: 50%;
+    margin: 10px;
+    background-image: url('./left.1.image.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+#sub-left-2{
+    /* border: 2px solid green; */
+    width: 36%;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+
+#left-2 #sub-left-2 h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.125;
+    letter-spacing: .002em;
+    text-align: center;
+}
+
+#left-2 #sub-left-2 p{
+    font-size: 12px;
+    font-weight: 600;
+    color: orangered;
+    line-height: 1.125;
+    letter-spacing: .002em;
+    text-align: center;
+}
+
+#left-2 #sub-left-2 h5{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.21053;
+    letter-spacing: .012em;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#left-2 #sub-left-2 span{
+    margin-left: 10px;
+}
+
+#left-2 #sub-left-2 span a{
+    color: var(--text-heading);
+    text-decoration: none;
+    margin-left: 20px;
+    
+}
+#combine-2{
+    display: flex;
+}
+
+#right-2{
+    /* border: 2px solid blue; */
+    height: 550px;
+    width: 50%;
+    margin: 10px;
+    background-image: url('./right1.image.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+#sub-right-2{
+    /* border: 2px solid green; */
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+
+#right-2 #sub-right-2 h1{
+    color: var(--text-color);
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.125;
+    letter-spacing: .002em;
+    text-align: center;
+}
+
+
+#right-2 #sub-right-2 h5{
+    color: var(--text-color);
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.21053;
+    letter-spacing: .012em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#right-2 #sub-right-2 span{
+    margin-left: 30px;
+}
+
+#right-2 #sub-right-2 span a{
+    color: var(--text-heading);
+    text-decoration: none;
+    margin-left: 20px;
+    
+}
+
+
+/* combine-3 */
+
+#left-3{
+    /* border: 2px solid blue; */
+    height: 550px;
+    width: 50%;
+    margin: 10px;
+    background-image: url('./left.2.image.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+#sub-left-3{
+    /* border: 2px solid green; */
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 230px;
+}
+
+#left-3 #sub-left-3 h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.125;
+    letter-spacing: .002em;
+    text-align: center;
+}
+
+#left-3 #sub-left-3 p{
+    font-size: 12px;
+    font-weight: 600;
+    color: orangered;
+    line-height: 1.125;
+    letter-spacing: .002em;
+    text-align: center;
+}
+
+#left-3 #sub-left-3 h5{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.21053;
+    letter-spacing: .012em;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#left-3 #sub-left-3 span{
+    margin-left: 30px;
+}
+
+#left-3 #sub-left-3 span a{
+    color: var(--text-heading);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+#right-3{
+    /* border: 2px solid blue; */
+    height: 550px;
+    width: 50%;
+    margin: 10px;
+    background-image: url('./right.2.image.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: repeat;
+    /* margin-left: 650px;
+    margin-top: -300px; */
+    position: absolute;
+    left: 650px;
+   margin-top: -558px;
+}
+#sub-right-3{
+    /* border: 2px solid green; */
+    width: 45%;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+#right-3 #sub-right-3 h1{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.125;
+    letter-spacing: .002em;
+    text-align: center;
+}
+
+#right-3 #sub-right-3 p{
+    font-size: 12px;
+    font-weight: 600;
+    color: orangered;
+    line-height: 1.125;
+    letter-spacing: .002em;
+    text-align: center;
+}
+
+#right-3 #sub-right-3 h5{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.21053;
+    letter-spacing: .012em;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#right-3 #sub-right-3 span{
+    margin-left: 30px;
+}
+
+#right-3 #sub-right-3 span a{
+    color: var(--text-heading);
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+#combine-3{
+    display: flex;
+}
+#com2:hover{
+    text-decoration: underline;
+}
